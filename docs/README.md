@@ -33,9 +33,6 @@ MirajAI: A lightweight and high-performance neural network library in C# using .
 - Foster an inclusive environment where users can suggest features, report issues, and contribute code.
 - Provide a roadmap for continuous improvement and enhancements.
 
-### Cultural Identity:
-- The name MirajAI reflects the project's origin, combining pride in Arab Muslim heritage with modern innovation in AI.
-
 ## Features to Include
 
 ### Core Components:
