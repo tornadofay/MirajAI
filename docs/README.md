@@ -87,13 +87,13 @@ MirajAI: A lightweight and high-performance neural network library in C# using .
 
 ### Phase 1: Initialization (1-2 Weeks)
 - **Set Up GitHub Repository**:
-  - Create the MirajAI repository.
-  - Write the project README with objectives, features, and a roadmap.
+  - Create the MirajAI repository. &#10003;
+  - Write the project README with objectives, features, and a roadmap. &#10003;
 - **Initial Project Setup**:
-  - Configure a .NET 9 project structure.
+  - Configure a .NET 9 project structure. &#10003;
   - Add basic documentation templates and guidelines.
 - **Define Core Interfaces and Classes**:
-  - Start with foundational classes like `Tensor<T>`, `ILayer<T>`, and `IOptimizer<T>`.
+  - Start with foundational classes like `ILayer<T>`, and `IOptimizer<T>`.
 
 ### Phase 2: Core Features (4-6 Weeks)
 - **Leverage `System.Numeric.Tensor`**:
