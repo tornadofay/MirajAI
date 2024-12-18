@@ -1,2 +1,3 @@
-# MirajAI
-MirajAI: A lightweight and high-performance neural network library in C# using .NET 9 and System.Numeric.Tensor.
+# Documentation
+
+The main README file has been moved to [docs/README.md](docs/README.md).
