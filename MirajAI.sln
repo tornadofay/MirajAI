@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirajAI", "MirajAI\MirajAI.csproj", "{55114136-4E65-49A5-AA72-26469ADBF692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirajAI.Tests", "MirajAI.Tests\MirajAI.Tests.csproj", "{D3ADF917-3167-44BF-B3DD-CC514D4780A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{55114136-4E65-49A5-AA72-26469ADBF692}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55114136-4E65-49A5-AA72-26469ADBF692}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55114136-4E65-49A5-AA72-26469ADBF692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3ADF917-3167-44BF-B3DD-CC514D4780A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3ADF917-3167-44BF-B3DD-CC514D4780A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3ADF917-3167-44BF-B3DD-CC514D4780A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3ADF917-3167-44BF-B3DD-CC514D4780A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
