@@ -9,6 +9,10 @@
   <ItemGroup>
     <Folder Include="Core\" />
     <Folder Include="Layers\" />
+    <Folder Include="Activations\" />
+    <Folder Include="LossFunctions\" />
+    <Folder Include="Models\" />
+    <Folder Include="Interfaces\" />
     <Folder Include="Utils\" />
     <Folder Include="Optimizers\" />
   </ItemGroup>
