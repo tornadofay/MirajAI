@@ -22,4 +22,10 @@
     <ProjectReference Include="..\MirajAI\MirajAI.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="LayersTests\" />
+    <Folder Include="UtilsTests\" />
+    <Folder Include="OptimizersTests\" />
+  </ItemGroup>
+
 </Project>
