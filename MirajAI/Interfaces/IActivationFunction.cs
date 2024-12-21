@@ -23,7 +23,7 @@ namespace MirajAI.Interfaces
         /// </summary>
         /// <param name="input">The input tensor.</param>
         /// <returns>The tensor after applying the activation function.</returns>
-        Tensor<T> Compute(Tensor<T> input);
+        Tensor<T> Compute(ReadOnlyTensorSpan<T> input);
 
         /// <summary>
         /// Computes the gradient of the activation function for backpropagation.
@@ -31,7 +31,7 @@ namespace MirajAI.Interfaces
         /// <param name="input">The input tensor (pre-activation).</param>
         /// <param name="outputGradient">The gradient of the loss with respect to the activation output.</param>
         /// <returns>The gradient of the loss with respect to the input.</returns>
-        Tensor<T> Gradient(Tensor<T> input, Tensor<T> outputGradient);
+        Tensor<T> Gradient(ReadOnlyTensorSpan<T> input, Tensor<T> outputGradient);
     }
 }
 #pragma warning restore SYSLIB5001
